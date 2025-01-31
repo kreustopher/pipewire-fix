@@ -26,14 +26,14 @@ echo renaming
 echo "[36m/usr/share/pipewire/pipewire.conf[0m"
 echo to
 echo "[36m/usr/share/pipewire/pipewire.conf.bu[0m"
-sudo mv /usr/share/pipewire/pipewire.conf.chrissucks
+sudo mv /usr/share/pipewire/pipewire.conf{.bu,.chrissucks}
 sudo mv /usr/share/pipewire/pipewire.conf{.bu,}
 echo ""
 echo renaming
 echo "[36m/usr/share/pipewire/pipewire-pulse.conf[0m"
 echo to
 echo "[36m/usr/share/pipewire/pipewire-pulse.conf.bu[0m"
-sudo mv /usr/share/pipewire/pipewire-pulse.conf.chrissucks
+sudo mv /usr/share/pipewire/pipewire-pulse.conf{.bu,.chrissucks}
 sudo mv /usr/share/pipewire/pipewire-pulse.conf{.bu,}
 echo ""
 echo ""
