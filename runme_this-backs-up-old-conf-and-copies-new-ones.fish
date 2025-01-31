@@ -4,13 +4,22 @@ if sudo test -f /usr/share/pipewire/pipewire.conf
     echo /usr/share/pipewire/pipewire.conf exists. moving forward
 else
     echo /usr/share/pipewire/pipewire.conf does not exist. weirdchamp sorry. can\'t help you
-	return
+    echo press ctrl + c now D:
+	read
+	read
+	read
+	read
 end
 if sudo test -f /usr/share/pipewire/pipewire-pulse.conf
     echo /usr/share/pipewire/pipewire-pulse.conf exists. moving forward
 else
     echo /usr/share/pipewire/pipewire.conf does not exist. weirdchamp sorry. can\'t help you
-	return
+    echo press ctrl + c now
+	read
+	read
+	read
+	read
+	read
 end
 
 echo renaming
